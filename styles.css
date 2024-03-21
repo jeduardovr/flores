@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sunflower {
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    .hoja1 {
+        width: 20px;
+        height: 40px;
+        border-radius: 28%;
+        background-color: green;
+        position: absolute;
+        top: 159px;
+        left: 10px;
+        z-index: 1;
+        transform: rotate(110deg);
+    }
+    
+    .hoja2 {
+        width: 20px;
+        height: 40px;
+        border-radius: 28%;
+        background-color: green;
+        position: absolute;
+        top: 175px;
+        left: 36px;
+        z-index: 1;
+        transform: rotate(68deg);
+    }
+}
+
+.tallo {
+    width: 20px;
+    height: 121px;
+    border-radius: 28%;
+    background-color: green;
+    position: absolute;
+    top: 126px;
+    left: 23px;
+}
+
+.center{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top: 41px;
+    left: -9px;
+    z-index: 1;
+}
+
+.petals {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.petals div {
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.petals div:nth-child(odd) {
+    transform: rotate(30deg);
+}
+
+.petals div:nth-child(even) {
+    transform: rotate(60deg);
+}
+
+.sunflower2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    .hoja1 {
+        width: 20px;
+        height: 40px;
+        border-radius: 28%;
+        background-color: green;
+        position: absolute;
+        top: 159px;
+        left: 10px;
+        z-index: 1;
+        transform: rotate(110deg);
+    }
+    
+    .hoja2 {
+        width: 20px;
+        height: 40px;
+        border-radius: 28%;
+        background-color: green;
+        position: absolute;
+        top: 175px;
+        left: 36px;
+        z-index: 1;
+        transform: rotate(68deg);
+    }
+}
+
+.petals2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.petals2 div {
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.petals2 div:nth-child(odd) {
+    transform: rotate(30deg);
+}
+
+.petals2 div:nth-child(even) {
+    transform: rotate(60deg);
+}
+
+.sunflower3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    .hoja1 {
+        width: 20px;
+        height: 40px;
+        border-radius: 28%;
+        background-color: green;
+        position: absolute;
+        top: 159px;
+        left: 10px;
+        z-index: 1;
+        transform: rotate(110deg);
+    }
+    
+    .hoja2 {
+        width: 20px;
+        height: 40px;
+        border-radius: 28%;
+        background-color: green;
+        position: absolute;
+        top: 175px;
+        left: 36px;
+        z-index: 1;
+        transform: rotate(68deg);
+    }
+}
+
+.petals3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.petals3 div {
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.petals3 div:nth-child(odd) {
+    transform: rotate(30deg);
+}
+
+.petals3 div:nth-child(even) {
+    transform: rotate(60deg);
+}
